@@ -1,0 +1,263 @@
+.headline-acc{
+    position: absolute;
+    top: 10px;
+    left: 410px;
+    height: 60px;
+    width: 585px;
+    color: white;
+    font-family: 'Montserrat' ;
+    background-color: #77c6f7;
+}
+
+.headline-acc-text{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+.settings-options{
+    position: absolute;
+    left: 410px;
+    top: 250px;
+    
+}
+
+.settings-option{
+    width: 585px;
+    height: 50px;
+    border: 1px solid rgb(212, 208, 208);
+    border-radius: 5px;
+}
+
+.settings-option:hover{
+    background-color: rgb(212, 208, 208);
+    cursor: pointer;
+}
+
+.settings-option h3{
+    font-size: 15px;
+    font-family: "Montserrat";
+    position: relative;
+    left: 35px;
+    top: 12px;
+}
+
+.change-pfp-option{
+    position: absolute;
+    top: -250px;
+    left: 80px;
+}
+
+.change-avatar{
+    position: relative;
+    left: 175px;
+}
+
+.arrow-icon{
+    width: 30px;
+    position: absolute;
+    left: 530px;
+    transform: translateY(9px);
+}
+
+.chosen-avatar{
+    background-color: rgb(212, 208, 208);
+    border-radius: 25px;
+}
+
+.save-changes-to-pfp{
+    position: absolute;
+    left: 360px;
+    top: -40px;
+    width: 120px;
+    height: 30px;
+    background-color: #67c0f8;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.change-name-form{
+    position: absolute;
+    left: 400px;
+    top: 150px;
+}
+
+.change-first-name{
+    position: absolute;
+    left: 100px;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 20px;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #e9eff3;
+    border-radius: 15px;
+}
+
+.change-first-name::placeholder{
+    color: #afb2b4;
+}
+
+.change-first-name:focus{
+    border: 2px solid #77c6f7 ;
+}
+
+.change-last-name{
+    position: absolute;
+    left: 350px;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 20px;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #e9eff3;
+    border-radius: 15px;
+}
+
+.change-last-name::placeholder{
+    color: #afb2b4;
+}
+
+.change-last-name:focus{
+    border: 2px solid #77c6f7;
+}
+
+.change-first-name-label{
+    position: absolute;
+    left: 110px;
+    top: -20px;
+    width: 100px;
+    font-family: "Montserrat";
+    font-size: 15px;
+}
+
+.change-last-name-label{
+    position: absolute;
+    left: 360px;
+    top: -20px;
+    width: 100px;
+    font-family: "Montserrat";
+    font-size: 15px;
+}
+
+.change-name-submit{
+    position: absolute;
+    left: 270px;
+    top: 100px;
+    width: 120px;
+    height: 30px;
+    background-color: #67c0f8;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.change-username{
+    position: absolute;
+    left: 70px;
+    width: 500px;
+}
+
+.change-username-label{
+    position: absolute;
+    left: 85px;
+    width: 300px;
+}
+
+.change-password-label{
+    width: 300px;
+    position: absolute;
+    top: 80px;
+    left: 85px;
+}
+
+.change-password{
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    width: 500px;
+}
+
+.change-pass-padding{
+    padding-right: 40px;
+}
+
+.change-password-submit{
+    position: absolute;
+    left: 250px;
+    top: 200px;
+    width: 120px;
+    height: 30px;
+    background-color: #67c0f8;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.change-pass-show-icon1{
+    width: 33px;
+    position: absolute;
+    left: 530px;
+    top: 16px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.change-pass-show-icon1:hover{
+    background-color:#d8e0e6;
+    border-radius: 20px;
+}
+
+.change-pass-show-icon2{
+    width: 33px;
+    position: absolute;
+    left: 530px;
+    top: 115px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.change-pass-show-icon2:hover{
+    background-color:#d8e0e6;
+    border-radius: 20px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+.acc-name-info{
+    color: #878888;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bolder; 
+    position: absolute;
+    top: 10px;
+    left: 420px;
+    font-size: 15px;   
+}
+
+.acc-username-info{
+    color: #878888;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bolder; 
+    position: absolute;
+    top: 60px;
+    left: 420px;
+    font-size: 15px;   
+}
+
+.coming-soon{
+    position: absolute;
+    left: 600px;
+    top: 200px;
+}
